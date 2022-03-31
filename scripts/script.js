@@ -1,16 +1,4 @@
-//--------STEPS---------
-//When user click
-//generate a random choice of the computer language. 
-//Display choices.
-//It should show a message about.
-//It should compare the computer choice with user choice.
-
-//It should update the score.
-
-// starting message
-// setTimeout( () => {
-//     alert("This is Rock Paper Scissors Lizard Spock game. You can start playing with computer by clicking the icons. ")
-// }, 2000);
+'use strict'
 
 const result = document.getElementById("result");
 let [comp_score, user_score] = [0,0];
