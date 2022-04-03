@@ -48,7 +48,8 @@ function clicked(input) {
     let comp_choice = choices[randomNumber];
     
     console.log(randomNumber);
-    document.getElementById("userChoice").innerHTML = `Computer choose <span>${comp_choice.toUpperCase()}</span>`;   //innerHtml is use when we use to replace any tag etc. but innertext is used to update or change the content of the tag.
+    document.getElementById("userChoice").innerHTML = `Computer choose <span>${comp_choice.toUpperCase()}</span>`;   
+    
     document.getElementById("compChoice").innerHTML = `You choose <span>${input.toUpperCase()}</span>`;
 
     console.log('input', input, 'comp- choice', comp_choice);
@@ -83,24 +84,5 @@ function clicked(input) {
         location.reload();
     }  
 }
-
-
-
-
-
-//For image button
-// let button = document.getElementById("buttonClick");
-// let divImage = document.getElementById("clickImage");
-// button.addEventListener("click", function() {
-//     console.log('click');
-//     let img = document.createElement("img");
-
-//     img.className = "imageclass";
-//     img.height = "400";
-//     img.width = "400";
-//     img.src = "https://4.bp.blogspot.com/-UDygmyRud_M/U1mhXYASEwI/AAAAAAAAPsY/DQdK7GNHnOw/s1600/rock%20paper%20scissors%20spock%20lizard%20devil%20love%20rules%20explained%20short%20hand.jpg";        
-//     divImage.appendChild(img);
-
-// })
 
 

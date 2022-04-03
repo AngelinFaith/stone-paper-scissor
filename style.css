@@ -1,6 +1,4 @@
-*,
-*:before,
-*:after {
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -13,14 +11,7 @@ html {
   font-family: "Poppins", sans-serif;
   background-color: #f9c5d1;
   background-image: linear-gradient(315deg, #f9c5d1 0%, #9795ef 74%);
-  /* background: #ededed; */
-  
   font-size: 16px;
-}
-
-.dark-mode-body {
-  background: #363636;
-  transition: all 1.5s;
 }
 
 /* main header starts */
@@ -51,9 +42,7 @@ li > p {
 .p-color {
   color: #000000;
 }
-.p-color-dark {
-  color: #ffffff;
-}
+
 .nav-ul > li > button, .nav-ul > li > a > button {
   height: 2rem;
   width: 2rem;
@@ -65,9 +54,6 @@ li > p {
   transition: all 1.5s;
 }
 
-.dark-mode:hover {
-  transform: rotate(40deg);
-}
 .nav-ul > li > button:hover, .nav-ul > li > a > button:hover {
   cursor: pointer;
 }
@@ -80,23 +66,6 @@ li > p {
   box-shadow:  5px 5px 10px #a6a6a6,
                -5px -5px 10px #ffffff;
 }
-
-
-.dark-mode-button {
-  color: white;
-  background: #242424;
-  box-shadow:  3px 3px 6px #232323,
-             -3px -3px 6px #494949;
-
-}
-
-.dark-mode-button:hover {
-  /* background: linear-gradient(145deg, #242424, #3a3a3a); */
-  box-shadow: inset 5px 5px 11px #242424,
-               -5px -5px 11px #484848;
-}
-
-
 
 .last-li {
   display: flex;
@@ -133,11 +102,6 @@ transition: all 1.5s;
   box-shadow: 28px 28px 35px #b9b9b9, -28px -28px 35px #ffffff;
 }
 
-.container-dark {
-  background: #313131;
-box-shadow:  18px 18px 73px #1f1f1f,
-             -18px -18px 73px #4d4d4d;
-}
 /* header  block starts */
 header {
   min-height: 2.5rem;
@@ -156,9 +120,7 @@ header {
 .title-light {
   color: #000000;
 }
-.title-dark {
-  color: rgb(218, 218, 218);
-}
+
 .score p {
   font-weight: 500;
   font-size: 1.1rem;
@@ -170,9 +132,6 @@ header {
 .score-light {
   color: rgb(0, 0, 0);
 }
-.score-dark {
-  color: rgb(218, 218, 218);
-}
 
 .choosing-part-comp, .choosing-part-user {
   transition: all 1.5s;
@@ -180,9 +139,7 @@ header {
 .p-light {
   color:#000000;
 }
-.p-dark {
-  color: rgb(218, 218, 218);
-}
+
 /* main part starts (the icon)*/
 .main-part {
   width: 90%;
